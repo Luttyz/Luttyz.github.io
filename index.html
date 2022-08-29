@@ -14,22 +14,21 @@
         }
         img {
             width: 20%;
-            transform: rotate(0deg);
-            transition: all 5s ease;
             z-index: -1;
+            animation: spin 3s infinite linear;
         }
-        img:hover {
-            transform: rotate(360deg);
-            transition: all 4s ease;
-        }
+        @keyframes spin {
+            from { transform: rotate(0deg) }
+            to { transform: rotate(360deg) }
+        }      
         h1 {
             margin-top: 50px;
             margin-bottom: 100px;
         }
     </style>
 <body>
-<img src="/bird.png">
-<h1>you have been gay bird'd</h1>
+<img src="bird.png">
+<h1>you have been gay bird'd, share this gay bird to epicly gay bird'd someone else 😎🤩</h1>
 <p><a href="https://luttyz.ml">(btw I have an actual website which you're gonna get redirected to in mere seconds goodbye)</a></p>
 </body>
 </html>
